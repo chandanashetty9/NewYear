@@ -1,0 +1,247 @@
+.navbar{
+/*	background-color: #0c071d;*/
+	color: white;
+
+}
+
+.num1{
+	position: absolute;
+	top: 25%;
+	left: 20%;
+}
+.num2{
+	position: absolute;
+	top: 25%;
+	left: 30%;
+}
+.num3{
+	position: absolute; 
+	top: 25%;
+	left: 42%;
+}
+.num4{
+	position: absolute;
+	top: 28%;
+	left: 50%;
+}
+.main1{
+	padding-top: 300px;
+}
+
+.bg{
+	background-image: url(party1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.main img{
+	width: 50%;
+}
+.bg1{
+	background-image: url(party2.jpg);
+	background-position: center;
+/*	background-size: cover;*/
+}
+.bg3{
+	background-image: url(party3.jpg);
+	background-size: cover;
+	background-position: center;
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+.bg4{
+	background-image: url(party4.jpg);
+	background-size: cover;
+	background-position: center;
+
+}
+.bg5{
+	background-image: url(image6.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.z{
+    position: relative;
+}
+.z{
+	animation-name:one;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+@keyframes one {
+	0%{
+		transform: translateY(200px);
+	}
+	100%{
+		transform: translateY(0px);
+	}
+}
+
+.y{
+	animation-name:two;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+@keyframes two {
+	0%{
+		transform: translateY(200px);
+	}
+	100%{
+		transform: translateY(0px);
+	}
+}
+
+.w{
+	animation-name:three;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+@keyframes three {
+	0%{
+		transform: translateX(-200px);
+	}
+	100%{
+		transform: translateX(0px);
+	}
+}
+
+
+.v{
+	animation-name:four;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+@keyframes four {
+	0%{
+		transform: translateX(200px);
+	}
+	100%{
+		transform: translateX(0px);
+	}
+}
+
+
+.u{
+	animation-name:three;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+@keyframes five {
+	0%{
+		transform: translateX(-200px);
+	}
+	100%{
+		transform: translateX(0px);
+	}
+}
+
+
+.x{
+	animation-name:six;
+	animation-duration: 2s;
+/*	animation-fill-mode: forwards;*/
+}
+@keyframes six {
+	0%{
+		transform: translateY(200px);
+	}
+	100%{ 
+		transform: translateY(0px);
+	}
+}
+
+
+.z img{
+	position: absolute;
+	top: -60px;
+	left: 15%;
+
+}
+.y{
+    position: relative;
+    padding-top: 140px;
+}
+
+.y img{
+	position: absolute;
+	top: -50px;
+	left: 15%;
+
+}
+.bg6{
+	background-image: url(party5.jpg);
+/*	background-position: center;*/
+	background-size: cover;
+
+}
+.main6 input{
+	outline: none;
+	cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:320px) and (max-width:575px){
+	.z{
+    position: relative;
+    padding-top: 100px;
+   }
+
+.z img{
+	position: absolute;
+	top: 0px;
+	left: 15%;
+	padding: 20px 0px;
+
+}
+
+.y{
+    position: relative;
+    padding-top: 250px;
+   }
+
+.y img{
+	position: absolute;
+	top: 0px;
+	left: 15%;
+	padding: 20px 0px;
+
+}
+.num1{
+	position: absolute;
+	top: 55%;
+	left: 20%;
+}
+.num2{
+	position: absolute;
+	top: 55%;
+	left: 30%;
+}
+.num3{
+	position: absolute; 
+	top: 55%;
+	left: 46%;
+}
+.num4{
+	position: absolute;
+	top: 55%;
+	left: 47%;
+}
+.main1{
+	margin-top: -280px;
+}
+.chandana{
+	margin-left: 120px;
+	margin-top: -160px;
+}
+ 
+ 
+
+}
+
